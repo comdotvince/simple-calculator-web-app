@@ -1,0 +1,71 @@
+html body {
+  margin: 0;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 316px;
+}
+
+input {
+  text-align: right;
+  height: 40px;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  border: none;
+  margin-bottom: 15px;
+  background-color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+  outline: none;
+  border: none; /* Optional: only if there's a visible border you want gone */
+  box-shadow: none; /* In case browser adds focus highlight via shadow */
+}
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+  margin-bottom: 5px;
+}
+
+.number {
+  background-color: rgb(78, 78, 78);
+}
+
+.operator {
+  background-color: orange;
+}
+
+.control {
+  background-color: rgb(150, 150, 150);
+}
+
+.zero {
+  width: 148px;
+}
