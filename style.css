@@ -27,6 +27,11 @@ input {
   background-color: black;
 }
 
+input::placeholder {
+  color: white; /* or any color like #888, rgb(100, 100, 100) */
+  opacity: 1; /* make sure it's visible (default might be low) */
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;

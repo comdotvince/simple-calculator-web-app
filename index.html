@@ -5,39 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@12.4.1/lib/browser/math.js"></script>
   </head>
   <body>
     <div class="container">
-      <input type="number" name="number" />
+      <input type="text" name="number" id="input-js" placeholder="0" />
       <div>
-        <button class="control">AC</button>
-        <button class="control">+/-</button>
-        <button class="control">%</button>
-        <button class="operator">/</button>
+        <button class="control btn-js">AC</button>
+        <button class="control btn-js">+/-</button>
+        <button class="control btn-js">%</button>
+        <button class="operator btn-js">/</button>
       </div>
       <div>
-        <button class="number">7</button>
-        <button class="number">8</button>
-        <button class="number">9</button>
-        <button class="operator">X</button>
+        <button class="number btn-js">7</button>
+        <button class="number btn-js">8</button>
+        <button class="number btn-js">9</button>
+        <button class="operator btn-js">*</button>
       </div>
       <div>
-        <button class="number">4</button>
-        <button class="number">5</button>
-        <button class="number">6</button>
-        <button class="operator">-</button>
+        <button class="number btn-js">4</button>
+        <button class="number btn-js">5</button>
+        <button class="number btn-js">6</button>
+        <button class="operator btn-js">-</button>
       </div>
       <div>
-        <button class="number">1</button>
-        <button class="number">2</button>
-        <button class="number">3</button>
-        <button class="operator">+</button>
+        <button class="number btn-js">1</button>
+        <button class="number btn-js">2</button>
+        <button class="number btn-js">3</button>
+        <button class="operator btn-js">+</button>
       </div>
       <div>
-        <button class="number zero">0</button>
-        <button class="number">.</button>
-        <button class="operator">=</button>
+        <button class="number zero btn-js">0</button>
+        <button class="number btn-js">.</button>
+        <button class="operator btn-js">=</button>
       </div>
     </div>
   </body>
+
+  <script src="index.js"></script>
 </html>
