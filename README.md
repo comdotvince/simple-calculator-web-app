@@ -26,10 +26,11 @@ A basic calculator built with HTML, CSS, and JavaScript. Supports addition, subt
 ## File Structure
 
 📁 calculator-app
-index.html # Main structure
-style.css # Styling
-script.js # Calculator logic
-README.md # Documentation.
+
+- index.html # Main structure
+- style.css # Styling
+- script.js # Calculator logic
+- README.md # Documentation.
 
 ## Example Screenshot
 
